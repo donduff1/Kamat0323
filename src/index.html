@@ -10,7 +10,44 @@
 </head>
 <body>
    <div class="container">
-    <h1>Sablon</h1>
+    <h1>Feladat 0313</h1>
+
+    <div> 
+    <div class="container bg-success">
+        <h1>Kamat számítás</h1>
+    
+        <div class="mt-3">
+            <label for="betet"
+            class="form-label">Betét</label>
+            <input type="text" id="betet"
+            class="form-control">
+        </div>
+    
+        <div class="mt-3 " id="result">
+            <label for="tokesites_szam"
+            class="form-label">Tőkésítési szám</label>
+            <input type="text" id="tokesites_szam"
+            class="form-control">
+        </div>
+    
+        
+    
+        <div class="mt-3">
+            <label for="nevleges"
+            class="form-label">Névleges kamat</label>
+            <input type="text" id="nevleges"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <button id="calcButton" class="btn btn-primary">Számít</button>
+        </div>
+        <div class="mt-3">
+            <label for="tenyleges"
+            class="form-label">Tényleges éves kamat</label>
+            <input type="text" id="tenyleges"
+            class="form-control" readonly>
+    </div>
    </div>
     <script src="app.js"></script> 
     <script src="js/bootstrap.js"></script>
